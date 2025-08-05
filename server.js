@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.send("Backend is running 🚀");
 });
 
-const PORT = process.env.PORT ;
+
 
 const server = http.createServer(app);
 const io = new Server(server, {
